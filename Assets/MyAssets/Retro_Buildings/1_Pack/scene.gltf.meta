@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 08400b156a5703948ad8458183f2c1c9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\Retro_Buildings\1_Pack\scene.bin
+    assetPath: Assets\Retro_Buildings\1_Pack\scene.bin
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\voorkant1.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\voorkant1.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\banner_0.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\banner_0.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\banner.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\banner.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\Seamless_grey_roof.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\Seamless_grey_roof.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\Cladding_Plaster_Chalk.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\Cladding_Plaster_Chalk.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_69.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_69.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_59.002_baseColor.png
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_59.002_baseColor.png
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_60.002_baseColor.png
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_60.002_baseColor.png
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_61.002_baseColor.png
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_61.002_baseColor.png
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_62.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_62.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_70.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_70.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_63.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_63.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_67.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_67.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_65.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_65.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\56.004_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\56.004_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\52.004_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\52.004_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\56muur.003_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\56muur.003_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\54.004_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\54.004_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\54dakkapel.003_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\54dakkapel.003_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_201.003_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_201.003_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_124.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_124.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_132.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_132.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_129.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_129.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_123.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_123.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_128.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_128.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_130.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_130.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_131.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_131.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_125.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_125.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_126.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_126.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_127.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_127.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_167.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_167.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_170.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_170.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_165.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_165.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_169.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_169.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_166.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_166.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_168.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_168.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_17.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_17.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_16.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_16.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_13.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_13.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_57.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_57.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_38.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_38.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_40.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_40.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_32.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_32.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_39.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_39.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_18.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_18.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_54.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_54.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_53.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_53.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_56.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_56.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_43.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_43.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_47.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_47.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_58.002_baseColor.png
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_58.002_baseColor.png
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_247.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_247.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_255.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_255.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_260.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_260.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_261.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_261.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_262.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_262.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_256.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_256.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_248.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_248.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_264.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_264.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_249.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_249.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_251.002_baseColor.png
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_251.002_baseColor.png
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_250.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_250.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_253.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_253.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_254.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_254.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_265.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_265.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_263.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_263.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_186.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_186.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_241.002_baseColor.png
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_241.002_baseColor.png
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_237.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_237.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_185.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_185.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_239.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_239.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_234.002_baseColor.png
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_234.002_baseColor.png
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_187.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_187.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_236.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_236.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_238.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_238.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_240.002_baseColor.png
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_240.002_baseColor.png
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_235.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_235.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_222.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_222.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_223.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_223.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_224.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_224.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_225.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_225.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_226.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_226.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_227.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_227.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_228.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_228.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_229.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_229.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_230.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_230.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_231.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_231.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_232.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_232.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_233.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_233.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_116.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_116.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_114.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_114.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_122.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_122.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_115.002_baseColor.png
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_115.002_baseColor.png
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_117.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_117.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_118.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_118.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_119.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_119.002_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Retro_Buildings\1_Pack\textures\auto_120.002_baseColor.jpeg
+    assetPath: Assets\Retro_Buildings\1_Pack\textures\auto_120.002_baseColor.jpeg
+  reportItems: []

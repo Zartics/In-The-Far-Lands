@@ -1,0 +1,33 @@
+using UnityEngine;
+
+public class PlayerMovement : MonoBehaviour
+{
+    public float speed = 5f; // Швидкість ходьби
+    public float gravity = -9.81f; // Сила гравітації
+
+    private CharacterController controller;
+    private Vector3 velocity;
+
+    void Start()
+    {
+        // Знаходимо Character Controller на нашій капсулі при старті
+        controller = GetComponent<CharacterController>();
+    }
+
+    void Update()
+    {
+        // Зчитуємо натискання кнопок W, A, S, D
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
+
+        // Формуємо напрямок руху
+        Vector3 move = transform.right * x + transform.forward * z;
+
+        // Рухаємо капсулу
+        controller.Move(move * speed * Time.deltaTime);
+
+        // Застосовуємо гравітацію, щоб падати на землю
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
+    }
+}

@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
+// Головний клас для плавного зникнення титрів
 public class GhostCredits : MonoBehaviour
 {
     [Header("Налаштування")]
@@ -9,6 +10,7 @@ public class GhostCredits : MonoBehaviour
 
     private bool isFading = false;
 
+    // Функція зникнення, що спрацьовує, якщо саме гравець доторкнеться колайдера
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !isFading)
@@ -18,6 +20,7 @@ public class GhostCredits : MonoBehaviour
         }
     }
 
+    // Корутина для плавного зниження прозорості
     IEnumerator FadeOutText()
     {
         while (creditsGroup.alpha > 0)

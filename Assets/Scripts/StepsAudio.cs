@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Головний клас, який генерує звуки кроків під час руху персонажа
 public class FootstepAudio : MonoBehaviour
 {
     [Header("Налаштування")]
@@ -13,9 +14,11 @@ public class FootstepAudio : MonoBehaviour
 
     void Update()
     {
+        // Зчитування клавіш управління
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveZ = Input.GetAxisRaw("Vertical");
 
+        // Якщо є реєстрація вводу, програється звук кроку
         if (moveX != 0 || moveZ != 0)
         {
             footstepSource.volume = maxVolume;
@@ -29,6 +32,8 @@ public class FootstepAudio : MonoBehaviour
                 stepTimer = stepInterval;
             }
         }
+
+        // Якщо реєстрації вводу немає, звук кроку зупиняться
         else
         {
             if (footstepSource.isPlaying)

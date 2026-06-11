@@ -1,6 +1,7 @@
 using UnityEngine;
-using UnityEngine.Playables;
+using UnityEngine.Playables; // Бібліотека для роботи з Timeline та катсценами
 
+// Головний клас для вимкнення управління персонажа під час катсцен
 public class CutsceneManager : MonoBehaviour
 {
     public PlayableDirector director;
@@ -8,31 +9,30 @@ public class CutsceneManager : MonoBehaviour
     public GameObject[] gameplayElements;
     public FootstepAudio footstepAudio;
 
+    // Викликається, коли цей об'єкт вмикається
     private void OnEnable()
     {
         director.played += DisablePlayer;
         director.stopped += EnablePlayer;
     }
 
+    // Викликається, коли цей об'єкт вимикається або знищується
     private void OnDisable()
     {
         director.played -= DisablePlayer;
         director.stopped -= EnablePlayer;
     }
 
+    // Вимкнення персонажа якщо катсцена вже почалась
     private void Start()
     {
-        if (playerMovement == null)
-        {
-            Debug.LogError("Поле Player Movement порожнє!");
-        }
-
         if (director != null && director.state == PlayState.Playing)
         {
             DisablePlayer(director);
         }
     }
 
+    // Метод для блокування управління та інтерфейсів
     private void DisablePlayer(PlayableDirector pd)
     {
         if (playerMovement != null) playerMovement.enabled = false;
@@ -43,6 +43,7 @@ public class CutsceneManager : MonoBehaviour
         }
     }
 
+    // Метод для відновлення управління та інтерфейсів
     private void EnablePlayer(PlayableDirector pd)
     {
         if (playerMovement != null) playerMovement.enabled = true;

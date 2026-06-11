@@ -1,8 +1,9 @@
 using UnityEngine;
-using UnityEngine.Playables;
-using UnityEngine.EventSystems;
+using UnityEngine.Playables; // Бібліотека для роботи з Timeline
+using UnityEngine.EventSystems; // Бібліотека для розпізнавання кліків по UIы
 using System.Collections;
 
+// Головний клас для пропускання ключових кадрів та паузи катсцен
 public class TimelineSkipper : MonoBehaviour
 {
     [Header("Налаштування")]
@@ -18,6 +19,7 @@ public class TimelineSkipper : MonoBehaviour
 
     void Update()
     {
+        // Логіка роботи паузи катсцени
         if (director != null)
         {
             if (Time.timeScale == 0f && !isTimelinePausedByMenu && director.state == PlayState.Playing)
@@ -33,6 +35,7 @@ public class TimelineSkipper : MonoBehaviour
             }
         }
 
+        // Логіка роботи пропускання катсцени
         if (Input.GetMouseButtonDown(0))
         {
             if (Time.timeScale == 0f) return;
@@ -50,12 +53,15 @@ public class TimelineSkipper : MonoBehaviour
         }
     }
 
+    // Метод, який шукає найближчу контрольну точку і пересуває туди катсцену
     void SkipToNextPhase()
     {
         if (director == null || director.state != PlayState.Playing) return;
 
+        // Поточний кадр катсцени 
         float currentTime = (float)director.time;
 
+        // Пошук потрібного кадру
         foreach (int frame in frameCheckpoints)
         {
             float targetTime = frame / timelineFPS;
@@ -69,6 +75,7 @@ public class TimelineSkipper : MonoBehaviour
         }
     }
 
+    // Корутина для візуального відгуку підказки
     IEnumerator BlinkIcon()
     {
         skipIcon.alpha = dimAlpha;
